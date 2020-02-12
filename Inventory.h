@@ -17,5 +17,10 @@ class Inventory
     void sell();
     friend ostream& operator<<(ostream&, const Inventory&);
 };
+/* Inventory consists of a name for an item the price of that item and how many are in stock at that moment
+ * we have 3 private members and three public member.
+ * the private members are the name price and stock.
+ * the public members are the constructor a function to sell and this friend function
+ * */
 
 #endif
